@@ -2,7 +2,10 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Sean's Online Resume</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sean's Online Profile</title>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto+Condensed:400,400i,700"
+            rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./resources/reset.css">
         <link rel="stylesheet" type="text/css" href="./resources/style.css">
 
@@ -17,23 +20,32 @@
             </div>
         </header>
 
-        <!-- Resume starting elements are here. drop down in resume.js -->
+        <!-- Resume starting elements are here. -->
         <div class="resume">
-            <div class="education">
-                <div class="edu-collapsed">
-                    <div class="bar edu-bar">
-                        <h2>Education</h2>
+            <div class="cont-container education">
+                <div class="edu-collapsed bar">
+                    <h2>Education</h2>
+                    <div class="icon">
                         <i class="far fa-plus-square fa-sm"></i>
                     </div>
-                </div>
 
+                </div>
                 <div class="edu-expanded">
                     <div class="bar edu-bar">
                         <h2>Education</h2>
-                        <i class="far fa-minus-square fa-sm"></i>
+                        <div class="icon">
+                            <i class="far fa-minus-square fa-sm"></i>
+                        </div>
                     </div>
                     <div class="content edu-content">
                         <ul>
+                            <li class="head">Further Studies
+                                <ul>
+                                    <li class="sub-head">General Assembly London (June - September 2018)
+                                        <img src="resources/images/ga-logo.png" alt=""> </li>
+                                    <li>Full-Stack web-development immersive</li>
+                                </ul>
+                            </li>
                             <li class="head">Higher Education:
                                 <ul>
                                     <li class="sub-head">University of Cape Town (2009-2012)</li>
@@ -59,17 +71,20 @@
                      </div>
                  </div>
             </div>
-            <div class="work-experience">
-                <div class="exp-collapsed">
-                    <div class="bar exp-bar">
-                        <h2>Work Experience</h2>
+
+            <div class="cont-container work-experience">
+                <div class="bar exp-collapsed">
+                    <h2>Work Experience</h2>
+                    <div class="icon">
                         <i class="far fa-plus-square fa-sm"></i>
                     </div>
                 </div>
                 <div class="exp-expanded">
                     <div class="bar exp-bar">
                         <h2>Work Experience</h2>
-                        <i class="far fa-minus-square fa-sm"></i>
+                        <div class="icon">
+                            <i class="far fa-minus-square fa-sm"></i>
+                        </div>
                     </div>
                     <div class="content edu-content">
                         <ul>
@@ -134,17 +149,19 @@
                 </div>
             </div>
 
-            <div class="interests">
-                <div class="int-collapsed">
-                    <div class="bar int-bar">
-                        <h2>Interests</h2>
+            <div class="cont-container interests">
+                <div class="bar int-collapsed">
+                    <h2>Interests</h2>
+                    <div class="icon">
                         <i class="far fa-plus-square fa-sm"></i>
                     </div>
                 </div>
                 <div class="int-expanded">
                     <div class="bar int-bar">
                         <h2>Interests</h2>
-                        <i class="far fa-minus-square fa-sm"></i>
+                        <div class="icon">
+                            <i class="far fa-minus-square fa-sm"></i>
+                        </div>
                     </div>
                     <div class="content int-content">
                         <p>Broad interests in outdoor activities, particularly
@@ -161,17 +178,19 @@
                  </div>
             </div>
 
-            <div class="Languages">
-                <div class="collapsed lang-collapsed">
-                    <div class="bar lang-bar">
-                        <h2>Languages</h2>
+            <div class="cont-container Languages">
+                <div class="bar lang-collapsed">
+                    <h2>Languages</h2>
+                    <div class="icon">
                         <i class="far fa-plus-square fa-sm"></i>
                     </div>
                 </div>
                 <div class="lang-expanded">
                     <div class="bar lang-bar">
                         <h2>Languages</h2>
-                        <i class="far fa-minus-square fa-sm"></i>
+                        <div class="icon">
+                            <i class="far fa-minus-square fa-sm"></i>
+                        </div>
                     </div>
                     <div class="content lang-content">
                         <ul>
@@ -189,17 +208,19 @@
                  </div>
             </div>
 
-            <div class="certificates">
-                <div class="collapsed cert-collapsed">
-                    <div class="bar cert-bar">
-                        <h2>Certificates and Trainings</h2>
+            <div class="cont-container certificates">
+                <div class="bar cert-collapsed">
+                    <h2>Certificates and Trainings</h2>
+                    <div class="icon">
                         <i class="far fa-plus-square fa-sm"></i>
                     </div>
                 </div>
                 <div class="cert-expanded">
                     <div class="bar cert-bar">
                         <h2>Certificates and Training</h2>
-                        <i class="far fa-minus-square fa-sm"></i>
+                        <div class="icon">
+                            <i class="far fa-minus-square fa-sm"></i>
+                        </div>
                     </div>
                     <div class="content cert-content">
                         <ul>
@@ -225,18 +246,19 @@
                 </div>
             </div>
 
-            <div class="references">
-                <div class="ref-collapsed">
-                    <div class="bar ref-bar">
-                        <h2>References</h2>
+            <div class="cont-container references">
+                <div class="bar ref-collapsed">
+                    <h2>References</h2>
+                    <div class="icon">
                         <i class="far fa-plus-square fa-sm"></i>
                     </div>
                 </div>
-
                 <div class="ref-expanded">
                     <div class="bar ref-bar">
                         <h2>References</h2>
-                        <i class="far fa-plus-square fa-sm"></i>
+                        <div class="icon">
+                            <i class="far fa-minus-square fa-sm"></i>
+                        </div>
                     </div>
                     <div class="content ref-content">
                         <p>To request reference contact information enter
@@ -269,6 +291,24 @@
                         <i class="fab fa-linkedin fa-2x"></i> </a>
                     </li>
                 </ul>
+            </div>
+
+            <div class="foot-mobile">
+                <ul>
+                    <li> <a href="https://web.facebook.com/SFRennie" target="_blank">
+                        <i class="fab fa-facebook fa-3x"></i> </a>
+                    </li>
+                    <li> <a href="https://www.instagram.com/sean.rennie/" target="_blank">
+                        <i class="fab fa-instagram fa-3x"></i> </a>
+                    </li>
+                    <li> <a href="https://github.com/Rennzie" target="_blank">
+                        <i class="fab fa-github-square fa-3x"></i> </a>
+                    </li>
+                    <li> <a href="https://www.linkedin.com/in/sean-rennie-b5a34067/" target="_blank">
+                        <i class="fab fa-linkedin fa-3x"></i> </a>
+                    </li>
+                </ul>
+
             </div>
         </footer>
 
