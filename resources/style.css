@@ -173,16 +173,13 @@ header{
     display: inline;
 }
 
-.content li,
-.content p{
+.content li{
     font-size: 1rem;
-    text-overflow: ellipsis;
-    font-weight: normal;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
 }
 
-.content p{
-    padding-top: 2rem 1rem 0 1rem;
+ p{
+    padding: 2rem 1rem 1rem 1rem;
 }
 
 .content form{
@@ -198,6 +195,10 @@ header{
 .content button{
     padding: 0 1rem;
     margin: 0 2rem;
+}
+
+b{
+    font-weight: bold;
 }
 /* ********footer styled here ****** */
 
