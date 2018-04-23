@@ -1,4 +1,8 @@
 $(document).ready(function(){
+
+    //functions to collapse and display resume information
+    //when the plus sign or clicked. Would be better to
+    //use $this here but not sure how to do that properly
     $(".edu-collapsed").click(function(){
         $(".edu-collapsed").css('display', 'none');
         $('.edu-expanded').css('display', 'flex');
@@ -59,8 +63,8 @@ $(document).ready(function(){
         $('.ref-collapsed').css('display', 'flex');
     });
 
+    // gets value from email input and returns an alert to user diplaying email
     $('.ref-request').on('submit', function(e) {
-        //e.preventDefault();
         let eMail = $('input').val();
 
         alert('Thank you for your interest. Reference information will be e-mailed to '+
