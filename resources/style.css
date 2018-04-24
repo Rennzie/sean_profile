@@ -1,19 +1,20 @@
 /* Global Styles */
 
-body{
-    font-family:  "Roboto Condensed", "Helvetica", sans-serif;
+body {
+    font-family: "Roboto Condensed", "Helvetica", sans-serif;
     font-size: 18px;
     line-height: 1.4;
 }
 
 @media (max-width:600px) {
-    body{
-        font-size: 50px;
+    body {
+        font-size: 25px;
     }
 }
 
 /* ******banner and avatar full sized here********* */
-header{
+
+header {
     display: flex;
     flex: 1;
     justify-content: center;
@@ -26,36 +27,35 @@ header{
     height: 40rem;
 }
 
-.avatar{
+.avatar {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.avatar img{
+.avatar img {
     width: 13.5rem;
     border-radius: 50%;
     border: 2px solid silver;
     margin: 2.77rem;
 }
 
-.avatar h2{
+.avatar h2 {
     text-align: center;
     font-size: 2rem;
     color: white;
 }
 
-.avatar h3{
+.avatar h3 {
     text-align: center;
     font-size: 1.5rem;
     color: silver;
 }
 
+/* ****** Resume styled here ******* */
 
-/* ****** Resume full sized styled here ******* */
-
-.resume{
+.resume {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,72 +65,74 @@ header{
 }
 
 @media (max-width: 920px) {
-    .resume{
+    .resume {
         width: 100%;
     }
 }
 
-.cont-container{
+.cont-container {
     width: 100%;
 }
 
 /* **** COLLAPSE/EXPAND ***** */
-.edu-collapsed{
+
+.edu-collapsed {
     display: flex;
 }
 
-.edu-expanded{
+.edu-expanded {
     display: none;
     flex-direction: column;
 }
 
-.exp-collapsed{
+.exp-collapsed {
     display: flex;
 }
 
-.exp-expanded{
+.exp-expanded {
     display: none;
     flex-direction: column;
 }
 
-.int-collapsed{
+.int-collapsed {
     display: flex;
 }
 
-.int-expanded{
+.int-expanded {
     display: none;
     flex-direction: column;
 }
 
-.lang-collapsed{
+.lang-collapsed {
     display: flex;
 }
 
-.lang-expanded{
+.lang-expanded {
     display: none;
     flex-direction: column;
 }
 
-.cert-collapsed{
+.cert-collapsed {
     display: flex;
 }
 
-.cert-expanded{
+.cert-expanded {
     display: none;
     flex-direction: column;
 }
 
-.ref-collapsed{
+.ref-collapsed {
     display: flex;
 }
 
-.ref-expanded{
+.ref-expanded {
     display: none;
     flex-direction: column;
 }
+
 /* **** COLLAPSE/EXPAND ***** */
 
-.bar{
+.bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,76 +142,77 @@ header{
     border-bottom: 1px solid grey;
 }
 
-.bar:hover{
+.bar:hover {
     cursor: pointer;
 }
 
-.bar .icon{
+.bar .icon {
     margin-right: 1rem;
 }
 
-.bar h2{
+.bar h2 {
     margin-left: 1rem;
 }
 
-.content{
+.content {
     border-bottom: 2px solid silver;
     width: 95%;
 }
 
-.content .head{
+.content .head {
     font-weight: bold;
     font-size: 1rem;
     padding: 1.5rem 0;
 }
 
-.content .sub-head{
+.content .sub-head {
     font-weight: bold;
     font-size: 1.5rem;
     padding: 1rem;
 }
 
-.content .sub-head img{
+.content .sub-head img {
     display: inline;
 }
 
-.content li{
+.content li {
     font-size: 1rem;
     padding: 1rem 2rem;
 }
 
- p{
+p {
     padding: 2rem 1rem 1rem 1rem;
 }
 
-.content form{
+.content form {
     display: flex;
     padding: 2rem;
 }
 
-.content input{
+.content input {
     width: 50%;
     height: 1.5rem;
 }
 
-.content button{
+.content button {
     padding: 0 1rem;
     margin: 0 2rem;
 }
 
-b{
+b {
     font-weight: bold;
 }
+
 /* ********footer styled here ****** */
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     background-color: grey;
     height: 2.5rem;
 }
 
-.foot{
+.foot {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -218,24 +221,24 @@ footer{
     color: silver;
 }
 
-.foot span{
+.foot span {
     font-weight: bold;
 }
 
-.foot ul{
+.foot ul {
     display: flex;
     align-items: center;
 }
 
-.foot li{
+.foot li {
     padding: 0.5rem;
 }
 
-.foot li:hover{
+.foot li:hover {
     cursor: pointer;
 }
 
-.foot-mobile{
+.foot-mobile {
     display: none;
 }
 
@@ -243,14 +246,11 @@ footer{
     .foot {
         display: none;
     }
-
-    footer{
+    footer {
         height: auto;
     }
-
-    .foot-mobile{
+    .foot-mobile {
         display: flex;
         justify-content: center;
-
     }
 }
